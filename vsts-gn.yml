@@ -16,6 +16,9 @@ steps:
   name: gclient_sync
 
 - bash: |
+    ls -la *
+    ls -la src
+    ls -la src/out
     ninja -C src/out/Default electron:electron_app
   name: Ninja_build
 
