@@ -52,7 +52,7 @@ static_library("brightray") {
   if (is_linux) {
     deps += [
       "//build/config/linux/gtk",
-      ":libnotify",
+      #":libnotify",
     ]
   }
 
